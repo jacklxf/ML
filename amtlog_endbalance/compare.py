@@ -7,19 +7,20 @@ parser = argparse.ArgumentParser()
 parser.parse_args()
 
 
-amtlog_name='SSS988_20180501.csv'
-eb1_name='SSS988_EndBalanceDetail_RMB_20180430.csv'
-eb2_name='SSS988_EndBalanceDetail_RMB_20180501.csv'
-games='Main Balance'
-wallet='MAIN BALANCE'
+amtlog_name='SG988_20180507.csv'
+eb1_name='SG988_EndBalanceDetail_RMB_20180506.csv'
+eb2_name='SG988_EndBalanceDetail_RMB_20180507.csv'
+games='OneLab Sportbook'
+wallet='ONELABSPORTBOOK BALANCE'
 
-amtlog=pd.read_csv("C:/Users/xiaofeng.li/Google Drive/Code/Python code/amtlog_endbalance/%s" %amtlog_name,encoding='ISO-8859-1')
-eb1=pd.read_csv("C:/Users/xiaofeng.li/Google Drive/Code/Python code/amtlog_endbalance/%s" %eb1_name)
-eb2=pd.read_csv("C:/Users/xiaofeng.li/Google Drive/Code/Python code/amtlog_endbalance/%s" %eb2_name)
+amtlog=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %amtlog_name,encoding='ISO-8859-1')
+eb1=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %eb1_name)
+eb2=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %eb2_name)
 
 
 amtlog=amtlog[['FTRANSID','username','game_name','FAMOUNT']]
 amtlog_user=amtlog[amtlog['game_name']==games][['username','FAMOUNT']].groupby('username').sum().reset_index()
+amtlog_user['FAMOUNT']=round(amtlog_user['FAMOUNT'],2)
 
 eb1=eb1[['Login Name',wallet]]
 eb1_group=eb1.groupby('Login Name').sum().reset_index()
@@ -28,11 +29,11 @@ eb2=eb2[['Login Name',wallet]]
 eb2_group=eb2.groupby('Login Name').sum().reset_index()
 eb2_group.columns=['user2','main2']
 eb=pd.merge(eb1_group,eb2_group,left_on='user1',right_on='user2',how='outer').fillna(0)
-eb['main']=eb['main2']-eb['main1']
+eb['main']=round(eb['main2']-eb['main1'],2)
 
 
 df=pd.merge(amtlog_user,eb,left_on='username',right_on='user2',how='outer')
 df=df.fillna(0)
 print(df.isnull().any())
-df.to_csv('C:/Users/xiaofeng.li/Google Drive/Code/Python code/amtlog_endbalance/result.csv')
+df.to_csv('C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/result.csv')
 
