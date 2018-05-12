@@ -1,12 +1,18 @@
+import numpy as np
+import pandas as pd
 import quandl
 import datetime
-import psycopg2
-import sys
+from sqlalchemy import create_engine
 
+host='localhost'
+dbname='postgres'
+user='postgres'
+password='wenqian628'
+engine = create_engine('postgresql://postgres:wenqian628@localhost:5432/postgres')
 
 quandl.ApiConfig.api_key = '2YacMQGW7xL6qTi_bVss'
 
-def quandl_stocks(symbol, start_date=(2018, 1, 1), end_date=None):
+def quandl_stocks(symbol, start_date=(2015, 1, 1), end_date=None):
     """
     symbol is a string representing a stock symbol, e.g. 'AAPL'
 
@@ -32,4 +38,22 @@ def quandl_stocks(symbol, start_date=(2018, 1, 1), end_date=None):
                       collapse='daily',
                       order='asc'
                       )
-df = quandl_stocks('AAPL')
+
+
+Symbol_name=pd.read_csv('/home/xf/Documents/ML/stocks/companylist.csv')
+n=Symbol_name['Symbol']
+for i in n.values:
+    try:
+        df = quandl_stocks(str(i))
+        df.columns = [c.lower() for c in df.columns]
+        df.to_sql(i, engine)
+        print(i + ' has done!')
+    except ValueError:
+        print(i+' is failed')
+        pass
+
+
+
+
+
+
