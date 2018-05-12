@@ -9,8 +9,8 @@ y = square(4)
 print(y)
 
 #try test
-import test
-print(test.repeat('hello', 3))
+import postgresETL
+print(postgresETL.repeat('hello', 3))
 
 #try preprocess and perform clustering with K-means
 import preprocess
