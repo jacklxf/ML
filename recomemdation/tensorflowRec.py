@@ -4,7 +4,6 @@ import pandas as pd
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-rating_matrix=scaler()
 
 num_items=rating['subgameID'].nunique()
 num_users=rating['userID'].nunique()
