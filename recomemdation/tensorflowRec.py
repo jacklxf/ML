@@ -5,8 +5,8 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 
-num_items=rating['subgameID'].nunique()
-num_users=rating['userID'].nunique()
+num_items=rating['GameID'].nunique()
+num_users=rating['PlayerID'].nunique()
 
 x=tf.placeholder(tf.float32,[None,num_items])
 
