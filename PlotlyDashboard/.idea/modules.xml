@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PlotlyDashboard.iml" filepath="$PROJECT_DIR$/.idea/PlotlyDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../recomemdation/.idea/recomemdation.iml" filepath="$PROJECT_DIR$/../recomemdation/.idea/recomemdation.iml" />
     </modules>
   </component>
 </project>

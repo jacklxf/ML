@@ -16,7 +16,7 @@ import pyspark.sql.functions as F
 spark=SparkSession.builder.getOrCreate()
 sc=spark.sparkContext
 
-df=pd.read_csv('C:/Users/xiaofeng.li.AFTG/Google Drive/Data/AI-Data.csv')
+df=pd.read_csv('C:/Users/xiaofeng.li/Google Drive/Data/AI-Data.csv')
 df=df[['PlayerID','GameID','BetAmount']]
 df_spark=spark.createDataFrame(df)
 #df_spark.show(20)

@@ -7,11 +7,11 @@ parser = argparse.ArgumentParser()
 parser.parse_args()
 
 
-amtlog_name='SG988_20180507.csv'
-eb1_name='SG988_EndBalanceDetail_RMB_20180506.csv'
-eb2_name='SG988_EndBalanceDetail_RMB_20180507.csv'
-games='OneLab Sportbook'
-wallet='ONELABSPORTBOOK BALANCE'
+amtlog_name='SSS988_20180529.csv'
+eb1_name='SSS988_EndBalanceDetail_RMB_20180528.csv'
+eb2_name='SSS988_EndBalanceDetail_RMB_20180529.csv'
+games='Sport Book'
+wallet='SPORTBOOK BALANCE'
 
 amtlog=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %amtlog_name,encoding='ISO-8859-1')
 eb1=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %eb1_name)
