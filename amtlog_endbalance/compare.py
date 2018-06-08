@@ -7,9 +7,9 @@ parser = argparse.ArgumentParser()
 parser.parse_args()
 
 
-amtlog_name='SSS988_20180529.csv'
-eb1_name='SSS988_EndBalanceDetail_RMB_20180528.csv'
-eb2_name='SSS988_EndBalanceDetail_RMB_20180529.csv'
+amtlog_name='SSS988_20180602.csv'
+eb1_name='SSS988_EndBalanceDetail_RMB_20180601.csv'
+eb2_name='SSS988_EndBalanceDetail_RMB_20180602.csv'
 games='Sport Book'
 wallet='SPORTBOOK BALANCE'
 

@@ -6,6 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="recomemdation" />
     <orderEntry type="module" module-name="ImageDownload" />
+    <orderEntry type="module" module-name="GGR_Compare" />
+    <orderEntry type="module" module-name="ggrCompare" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />

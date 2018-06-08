@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GGR_Compare/.idea/GGR_Compare.iml" filepath="$PROJECT_DIR$/../GGR_Compare/.idea/GGR_Compare.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ImageDownload/.idea/ImageDownload.iml" filepath="$PROJECT_DIR$/../ImageDownload/.idea/ImageDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PlotlyDashboard.iml" filepath="$PROJECT_DIR$/.idea/PlotlyDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ggrCompare/.idea/ggrCompare.iml" filepath="$PROJECT_DIR$/../ggrCompare/.idea/ggrCompare.iml" />
       <module fileurl="file://$PROJECT_DIR$/../recomemdation/.idea/recomemdation.iml" filepath="$PROJECT_DIR$/../recomemdation/.idea/recomemdation.iml" />
     </modules>
   </component>
