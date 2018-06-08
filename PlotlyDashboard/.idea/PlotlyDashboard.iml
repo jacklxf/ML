@@ -8,6 +8,8 @@
     <orderEntry type="module" module-name="ImageDownload" />
     <orderEntry type="module" module-name="GGR_Compare" />
     <orderEntry type="module" module-name="ggrCompare" />
+    <orderEntry type="module" module-name="amtlog_endbalance" />
+    <orderEntry type="module" module-name="SingaporeRent" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />

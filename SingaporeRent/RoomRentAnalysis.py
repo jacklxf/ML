@@ -1,0 +1,1 @@
+from scrawalPage import *import matplotlib.pyplot as pltimport seaborn as snsRoomlist=Roomlist_download()print(Roomlist.head())Roomlist_group=Roomlist.groupby('RoomName').count().reset_index().sort_values(by=['RoomPrice'],ascending=False)print(Roomlist_group)sns.set_style('whitegrid')sns.barplot(x='RoomName',y='RoomPrice',data=Roomlist_group[:10])plt.show()
