@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../GGR_Compare/.idea/GGR_Compare.iml" filepath="$PROJECT_DIR$/../GGR_Compare/.idea/GGR_Compare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Home Credit Default Risk/.idea/Home Credit Default Risk.iml" filepath="$PROJECT_DIR$/../Home Credit Default Risk/.idea/Home Credit Default Risk.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ImageDownload/.idea/ImageDownload.iml" filepath="$PROJECT_DIR$/../ImageDownload/.idea/ImageDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PlotlyDashboard.iml" filepath="$PROJECT_DIR$/.idea/PlotlyDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Recruit Restaurant Visitor Forecasting/.idea/Recruit Restaurant Visitor Forecasting.iml" filepath="$PROJECT_DIR$/../Recruit Restaurant Visitor Forecasting/.idea/Recruit Restaurant Visitor Forecasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SingaporeRent/.idea/SingaporeRent.iml" filepath="$PROJECT_DIR$/../SingaporeRent/.idea/SingaporeRent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../amtlog_endbalance/.idea/amtlog_endbalance.iml" filepath="$PROJECT_DIR$/../amtlog_endbalance/.idea/amtlog_endbalance.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ggrCompare/.idea/ggrCompare.iml" filepath="$PROJECT_DIR$/../ggrCompare/.idea/ggrCompare.iml" />
