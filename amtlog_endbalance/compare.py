@@ -1,20 +1,15 @@
 import pandas as pd
-import argparse
 
 
-print('Example:')
-print("amtlog_name='SSS988_20180602.csv'")
-print("eb1_name='SSS988_EndBalanceDetail_RMB_20180601.csv'")
-print("eb2_name='SSS988_EndBalanceDetail_RMB_20180602.csv'")
-print("games='Sport Book'")
-print("wallet='SPORTBOOK BALANCE'")
 
-parser = argparse.ArgumentParser()
-amtlog_name=parser.add_argument('--amtlog_name',required=True)
-eb1_name=parser.add_argument('--eb1_name',required=True)
-eb2_name=parser.add_argument('--eb2_name',required=True)
-games=parser.add_argument('--games',required=True)
-wallet=parser.add_argument('--wallet',required=True)
+
+amtlog_name='SSS988_20180615.csv'
+eb1_name='SSS988_EndBalanceDetail_RMB_20180614.csv'
+eb2_name='SSS988_EndBalanceDetail_RMB_20180615.csv'
+games='Sport Book'
+wallet='SPORTBOOK BALANCE'
+
+
 
 def main():
 
