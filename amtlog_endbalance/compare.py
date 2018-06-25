@@ -3,9 +3,9 @@ import pandas as pd
 
 
 
-amtlog_name='SSS988_20180618.csv'
-eb1_name='SSS988_EndBalanceDetail_RMB_20180617.csv'
-eb2_name='SSS988_EndBalanceDetail_RMB_20180618.csv'
+amtlog_name='SSS988_20180619.csv'
+eb1_name='SSS988_EndBalanceDetail_RMB_20180618.csv'
+eb2_name='SSS988_EndBalanceDetail_RMB_20180619.csv'
 games='Sport Book'
 wallet='SPORTBOOK BALANCE'
 
