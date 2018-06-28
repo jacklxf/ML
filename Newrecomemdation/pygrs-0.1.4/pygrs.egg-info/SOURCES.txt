@@ -1,0 +1,10 @@
+setup.py
+grs/API.py
+grs/Etl.py
+grs/Training.py
+grs/__init__.py
+pygrs.egg-info/PKG-INFO
+pygrs.egg-info/SOURCES.txt
+pygrs.egg-info/dependency_links.txt
+pygrs.egg-info/requires.txt
+pygrs.egg-info/top_level.txt

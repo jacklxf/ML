@@ -12,6 +12,7 @@
     <orderEntry type="module" module-name="SingaporeRent" />
     <orderEntry type="module" module-name="Home Credit Default Risk" />
     <orderEntry type="module" module-name="Recruit Restaurant Visitor Forecasting" />
+    <orderEntry type="module" module-name="Newrecomemdation" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />

@@ -11,35 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TS.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TS.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeSeries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TimeSeries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compare.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../amtlog_endbalance/compare.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -108,11 +87,25 @@
           <expand>
             <path>
               <item name="PlotlyDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amtlog_endbalance" type="462c0819:PsiDirectoryNode" />
+              <item name="Newrecomemdation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlotlyDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageDownload" type="462c0819:PsiDirectoryNode" />
+              <item name="Newrecomemdation" type="462c0819:PsiDirectoryNode" />
+              <item name="python-section" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlotlyDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Newrecomemdation" type="462c0819:PsiDirectoryNode" />
+              <item name="python-section" type="462c0819:PsiDirectoryNode" />
+              <item name="section_similarity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlotlyDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Newrecomemdation" type="462c0819:PsiDirectoryNode" />
+              <item name="python-section" type="462c0819:PsiDirectoryNode" />
+              <item name="section_similarity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +115,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TimeSeries.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Newrecomemdation" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -142,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="DataIntegration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recruit Restaurant Visitor Forecasting" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,38 +208,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="imgDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ImageDownload" />
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Newrecomemdation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ImageDownload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Newrecomemdation/pygrs-0.1.4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ImageDownload/imgDownload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Newrecomemdation/pygrs-0.1.4/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.imgDownload" />
       <item itemvalue="Python.DataIntegration" />
       <item itemvalue="Python.exploration" />
       <item itemvalue="Python.exploration (1)" />
       <item itemvalue="Python.compare" />
+      <item itemvalue="Python.setup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.compare" />
         <item itemvalue="Python.DataIntegration" />
         <item itemvalue="Python.exploration (1)" />
         <item itemvalue="Python.exploration" />
-        <item itemvalue="Python.imgDownload" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +259,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11643836" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40510544" />
@@ -294,6 +287,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TimeSeries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amtlog_endbalance/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -554,13 +564,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Recruit Restaurant Visitor Forecasting/exploration.py" />
     <entry file="file://$PROJECT_DIR$/../Recruit Restaurant Visitor Forecasting/DataIntegration.py" />
-    <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TS.py">
+    <entry file="file://$PROJECT_DIR$/../Newrecomemdation/pygrs-0.1.4/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Newrecomemdation/python-section/section_similarity/src/model_deploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../amtlog_endbalance/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -574,10 +597,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../amtlog_endbalance/compare.py">
+    <entry file="file://$USER_HOME$/Google Drive/Data/Recruit Restaurant Visitor Forecasting/TS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

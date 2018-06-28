@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pygrs
+Version: 0.1.4
+Summary: Python library for GRS project
+Home-page: https://www.python.org
+Author: aft
+Author-email: aft@afution.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3

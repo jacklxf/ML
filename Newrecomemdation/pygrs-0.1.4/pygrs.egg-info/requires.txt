@@ -1,0 +1,6 @@
+pyspark
+pandas
+waitress
+falcon
+pymssql
+cx_Oracle

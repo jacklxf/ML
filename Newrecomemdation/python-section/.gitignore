@@ -1,0 +1,7 @@
+#ignore virtual environment
+/bin/
+/lib/
+/share
+pip-*.json
+/pygrs*
+/cx*

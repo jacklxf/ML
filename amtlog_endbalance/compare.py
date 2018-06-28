@@ -3,11 +3,11 @@ import pandas as pd
 
 
 
-amtlog_name='SSS988_20180619.csv'
-eb1_name='SSS988_EndBalanceDetail_RMB_20180618.csv'
-eb2_name='SSS988_EndBalanceDetail_RMB_20180619.csv'
-games='Sport Book'
-wallet='SPORTBOOK BALANCE'
+amtlog_name='SSS988_20180620.csv'
+eb1_name='SSS988_EndBalanceDetail_RMB_20180619.csv'
+eb2_name='SSS988_EndBalanceDetail_RMB_20180620.csv'
+games='TTG'
+wallet='CHARTWELL BALANCE'
 
 
 
@@ -34,7 +34,11 @@ def main():
 
     df=pd.merge(amtlog_user,eb,left_on='username',right_on='user2',how='outer')
     df=df.fillna(0)
+    #print(df.head())
+    df['diff']=df['FAMOUNT']-df['main']
     print(df.isnull().any())
+    df=df[df['diff']!=0]
+    print(df)
     df.to_csv('C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/result.csv')
 
 if __name__ == '__main__':
