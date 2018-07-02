@@ -50,7 +50,7 @@ testX=np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
 
 
 model=Sequential()
-model.add(LSTM(4,input_shape=(1,1)))
+model.add(LSTM(8,input_shape=(1,1)))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error',optimizer='adam')
 model.fit(trainX,trainY,epochs=50,batch_size=1,verbose=2)
