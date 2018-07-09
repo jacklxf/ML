@@ -1,21 +1,34 @@
 import pandas as pd
+import argparse
 
 
+'''
+example:
 
+python amtlog_endbalance_compare.py "SSS988_20180702.csv" "SSS988_EndBalanceDetail_RMB_20180701.csv" "SSS988_EndBalanceDetail_RMB_20180702.csv" "UGS" "UGS
+ BALANCE"
+'''
 
-amtlog_name='SSS988_20180628.csv'
-eb1_name='SSS988_EndBalanceDetail_RMB_20180627.csv'
-eb2_name='SSS988_EndBalanceDetail_RMB_20180628.csv'
-games='Sport Book'
-wallet='SPORTBOOK BALANCE'
+parser=argparse.ArgumentParser()
+parser.add_argument('amtlog_name',help='the amtlog csv file name',type=str)
+parser.add_argument('eb1_name',help='the previous endbalance file name',type=str)
+parser.add_argument('eb2_name',help='the current endbalance file name',type=str)
+parser.add_argument('games',help='games name in amtlog file',type=str)
+parser.add_argument('wallet',help='the game wallet name in endbalance',type=str)
 
+args=parser.parse_args()
 
+amtlog_name=str(args.amtlog_name)
+eb1_name=str(args.eb1_name)
+eb2_name=str(args.eb2_name)
+games=str(args.games)
+wallet=str(args.wallet)
 
 def main():
 
-    amtlog=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %amtlog_name,encoding='ISO-8859-1')
-    eb1=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %eb1_name)
-    eb2=pd.read_csv("C:/Users/xiaofeng.li/Documents/ML/amtlog_endbalance/%s" %eb2_name)
+    amtlog=pd.read_csv(amtlog_name,encoding='ISO-8859-1')
+    eb1=pd.read_csv(eb1_name)
+    eb2=pd.read_csv(eb2_name)
 
 
     amtlog=amtlog[['FTRANSID','username','game_name','FAMOUNT']]
